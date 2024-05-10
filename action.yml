@@ -28,6 +28,7 @@ runs:
         with:
           cleanup: 'false'
           cache-binary: 'false'
+          use: 'false'
         
       - name: Install NVIDIA CUDA Toolkit
         if: ${{ inputs.install-cuda == 'true' }}
